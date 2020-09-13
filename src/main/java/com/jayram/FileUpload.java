@@ -33,8 +33,8 @@ public class FileUpload extends HttpServlet {
 			{
 				FileItem item = iterator.next();
 				item.write(new File("E:\\Jayram Java Project\\JSP and Servlet\\FileUploadDemo\\"+item.getName()));
-				out.println("File uploaded !!!");
 			}
+			out.println("File/s uploaded !!!");
 		} 
 		catch (Exception e) 
 		{
